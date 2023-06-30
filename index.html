@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Portfolio Diana</title>
-</head>
-<body>
- 
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio Diana</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo__container">
+				<img
+					src="./assets/img/logo.jpg"
+					alt="logo portafolio"
+					class="logo" />
+				<p>
+					<span>Diana</span>
+					<span>Castaño</span>
+				</p>
+			</div>
+			<nav class="navbar__container">
+    <div class="navbar">
+     <div class="hamburger" onclick="toggleMenu()">
+      <span class="line1__bars--menu"></span>
+      <span class="line2__bars--menu"></span>
+      <span class="line3__bars--menu"></span>
+    </div>
+				<ul class="menu">
+					<li class="menu__item"><a href="">Sobre mi</a></li>
+					<li class="menu__item"><a href="">Skills</a></li>
+					<li class="menu__item"><a href="">Hobbies</a></li>
+					<li class="menu__item"><a href="">Formación</a></li>
+					<li class="menu__item"><a href="">Proyectos</a></li>
+				</ul>
+			</nav>
+		</header>
+  <script src="./script.js"></script>
+	</body>
 </html>
