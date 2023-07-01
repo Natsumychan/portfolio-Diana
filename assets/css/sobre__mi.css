@@ -1,0 +1,11 @@
+.sobre__mi{
+ height: 50vh;
+ padding: 16px;
+ background-color: #eaf2fd;
+}
+
+.firma{
+ font-size: 2.2rem;
+ font-family: 'Sacramento',
+   cursive;
+}
