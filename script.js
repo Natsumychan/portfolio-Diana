@@ -49,11 +49,5 @@ window.addEventListener("resize", () =>{
     if(menu.classList.contains("menu__links-show")){
       menu.classList.remove("menu__links-show")
     }
-  }else{
-    addClick()
   }
 })
-
-if(window.innerWidth <=800){
-  addClick()
-}

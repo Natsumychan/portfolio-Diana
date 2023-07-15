@@ -2,7 +2,7 @@
  display:flex;
  justify-content: space-between;
  margin: 0 16px;
- height:fit-content;
+ height:70px;
 }
 
 .logo__container{
@@ -20,14 +20,6 @@
 .navbar__container{
   display: flex;
   align-items: center;
-  height:100%;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
   height:100%;
 }
 
@@ -162,7 +154,7 @@
   .hamburger{
     display:none
   }
-    
+
   .menu {
     display:flex;
     align-items: center;
@@ -174,8 +166,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: whitesmoke;
-    transform: translateX(0);
-    
+    transform: translateX(0);   
   }
 
   .menu__link{
