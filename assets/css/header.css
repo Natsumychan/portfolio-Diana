@@ -2,7 +2,7 @@
  display:flex;
  justify-content: space-between;
  margin: 0 16px;
- height:70px;
+ height:fit-content;
 }
 
 .logo__container{
@@ -128,7 +128,6 @@
 
 .menu__item-active{
   --transform: rotate(0) ;
-  --background: #5e7094;
 }
 
 .menu__item-show{
