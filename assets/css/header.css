@@ -139,6 +139,10 @@
   transition: height .3s;
 }
 
+.menu__inside:first-child{
+  margin-top: 10px;
+}
+
 .menu__link-inside{
   padding: 30px 80px 30px 20px;
   width:90%;
@@ -163,12 +167,15 @@
     max-width: 100%;
     position:static;
     width: 100%;
-    height:fit-content;
+    height:auto;
     background-color: whitesmoke;
     transform: translateX(0);   
+      overflow-x: hidden;
+        overflow-y: scroll;
   }
 
   .menu__link{
+    justify-content:left;
     padding: 0 5px;
     height: 100%;
   }
@@ -179,11 +186,12 @@
   }
 
   .menu__proyectos {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    position: relative;
+    left: unset;
+    bottom: unset;
     width: max-content;
     transform: translateY(0);
+    
   }
 
   .menu__link-inside {
