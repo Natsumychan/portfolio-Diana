@@ -1,0 +1,26 @@
+.formacion{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top:30px;
+ background-color: #eaf2fd;
+ width:100%;
+ text-align: center;
+}
+
+.card__formación{
+ display:flex;
+ flex-direction: column;
+ width: 85%;
+ margin-top: 30px;
+ text-align: left;
+}
+
+.certificado__img{
+ width: 100%;
+}
+
+.detalle__formacion{
+ font-family: 'Montserrat', sans-serif;
+}
+
