@@ -33,5 +33,42 @@
 }
 
 .skill__name{
- font-family: 'Montserrat', sans-serif;
+ font-family: 'Raleway', sans-serif;
+ font-weight: bold;
+}
+
+.hobbie__card{
+ padding-top: 0;
+ width:90%;
+ border-radius: 20px;
+ overflow-x: hidden;
+}
+
+.hobbie__img{
+ width: 100%;
+ height: 200px;
+}
+
+.hobbie-1{
+ background: url("../img/pexels-alex-green-5699509.jpg") no-repeat center / cover;
+}
+
+.hobbie-2 {
+ background: url("../img/pexels-croberin-photography-1372008.jpg") no-repeat center / cover;
+}
+
+.hobbie-3 {
+ background: url("../img/pexels-cottonbro-studio-4009409.jpg") no-repeat center / cover;
+}
+
+.hobbie-4 {
+ background: url("../img/pexels-kristina-snowasp-9986235.jpg") no-repeat center / cover;
+}
+
+.hobbie-5 {
+ background: url("../img/pexels-christina-morillo-1181671.jpg") no-repeat center / cover;
+}
+
+.hobbie-6 {
+ background: url("../img/pexels-julia-m-cameron-4144923.jpg") no-repeat center / cover;
 }
