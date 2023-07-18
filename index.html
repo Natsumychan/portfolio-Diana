@@ -13,9 +13,16 @@
 			rel="preconnect"
 			href="https://fonts.gstatic.com"
 			crossorigin />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;700&family=Sacramento&display=swap"
+			rel="stylesheet" />
 		<link
 			rel="stylesheet"
 			href="./assets/css/normalize.css" />
@@ -37,7 +44,12 @@
 		<link
 			rel="stylesheet"
 			href="./assets/css/skills.css" />
-		<link rel="stylesheet" href="./assets/css/formacion.css">
+		<link
+			rel="stylesheet"
+			href="./assets/css/formacion.css" />
+		<link
+			rel="stylesheet"
+			href="./assets/css/formulario.css" />
 	</head>
 	<body>
 		<header class="header">
@@ -186,27 +198,45 @@
 			<h2 class="titulo__skills">Skills</h2>
 			<div class="skills__container">
 				<div class="skill__card">
-					<img src="./assets/img/javascript.svg" alt="JavaScript logo" class="logo__skill">
+					<img
+						src="./assets/img/javascript.svg"
+						alt="JavaScript logo"
+						class="logo__skill" />
 					<p class="skill__name">JavaScript</p>
 				</div>
 				<div class="skill__card">
-					<img src="./assets/img/html.svg" alt="HTML logo" class="logo__skill">
+					<img
+						src="./assets/img/html.svg"
+						alt="HTML logo"
+						class="logo__skill" />
 					<p class="skill__name">HTML5</p>
 				</div>
 				<div class="skill__card">
-					<img src="./assets/img/css.svg" alt="CSS logo" class="logo__skill">
+					<img
+						src="./assets/img/css.svg"
+						alt="CSS logo"
+						class="logo__skill" />
 					<p class="skill__name">CSS3</p>
 				</div>
 				<div class="skill__card">
-				<img src="./assets/img/git.svg" alt="git logo" class="logo__skill">
+					<img
+						src="./assets/img/git.svg"
+						alt="git logo"
+						class="logo__skill" />
 					<p class="skill__name">Git</p>
 				</div>
 				<div class="skill__card">
-				<img src="./assets/img/react.svg" alt="react logo" class="logo__skill">
+					<img
+						src="./assets/img/react.svg"
+						alt="react logo"
+						class="logo__skill" />
 					<p class="skill__name">React</p>
 				</div>
 				<div class="skill__card">
-					<img src="./assets/img/bootstrap.svg" alt="bootstrap logo" class="logo__skill">
+					<img
+						src="./assets/img/bootstrap.svg"
+						alt="bootstrap logo"
+						class="logo__skill" />
 					<p class="skill__name">Bootstrap</p>
 				</div>
 			</div>
@@ -245,28 +275,32 @@
 			<div class="card__formación">
 				<img
 					src="./assets/img/Screenshot-from-2023-07-16-22-39-43.webp"
-					alt="certificado Coursera" class="certificado__img" />
+					alt="certificado Coursera"
+					class="certificado__img" />
 				<h3>Formación en UX Design</h3>
 				<p class="detalle__formacion">En curso-Coursera</p>
 			</div>
 			<div class="card__formación">
 				<img
 					src="./assets/img/Screenshot-from-2023-07-16-22-46-45.webp"
-					alt="certificado SheCodes" class="certificado__img" />
+					alt="certificado SheCodes"
+					class="certificado__img" />
 				<h3>Certificación en React</h3>
 				<p>2023-SheCodes</p>
 			</div>
 			<div class="card__formación">
 				<img
 					src="./assets/img/Screenshot-from-2023-07-16-22-47-58.webp"
-					alt="certificado Platzi" class="certificado__img" />
+					alt="certificado Platzi"
+					class="certificado__img" />
 				<h3>Desarrollo front-end</h3>
 				<p>2022-Platzi</p>
 			</div>
 			<div class="card__formación">
 				<img
 					src="./assets/img/Screenshot-from-2023-07-16-23-15-48.webp"
-					alt="certificado Alura" class="certificado__img" />
+					alt="certificado Alura"
+					class="certificado__img" />
 				<h3>Formación en HTML y CSS</h3>
 				<p>2023-Alura</p>
 			</div>
@@ -289,7 +323,9 @@
 				<h3>App del clima</h3>
 				<p>SheCodes</p>
 				<button>Repositorio</button>
-				<button>Demo</button>
+				<button>
+					<a href="https://elaborate-croissant-1b7582.netlify.app/">Demo</a>
+				</button>
 			</div>
 			<div class="card__projecto">
 				<img
@@ -311,21 +347,82 @@
 			</div>
 		</section>
 		<section class="contacto">
-			<h2>Contacto</h2>
-			<p></p>
-			<form action="">
-				<input type="text" />
+			<h2 class="titulo__contacto">Contacto</h2>
+			<p class="descripcion__contacto">
+				¿Quieres contactarme?
+				<br />
+				Complete el siguiente formulario y me pondré en contacto con usted lo
+				antes posible.
+			</p>
+			<form class="formulario">
+				<div class="input-container">
+					<input
+						name="name"
+						id="name"
+						class="input"
+						type="text"
+						placeholder="Nombre"
+						required
+						data-tipo="nombre" />
+					<label
+						class="input-label"
+						for="name"
+						>Nombre</label
+					>
+					<span class="input-message-error">Este campo no es valido</span>
+				</div>
+				<div class="input-container">
+					<input
+						name="email"
+						id="email"
+						class="input"
+						type="email"
+						placeholder="Email"
+						required
+						data-tipo="email" />
+					<label
+						class="input-label"
+						for="email"
+						>Email</label
+					>
+					<span class="input-message-error">Este campo no es valido</span>
+				</div>
+				<div class="input-container">
+					<input
+						name="name"
+						id="name"
+						class="input"
+						type="text"
+						placeholder="Nombre"
+						required
+						data-tipo="nombre" />
+					<label
+						class="input-label"
+						for="name"
+						>Asunto</label
+					>
+					<span class="input-message-error">Este campo no es valido</span>
+				</div>
+				<div class="textarea-container">
+					<textarea
+						name=""
+						id="textArea"
+						cols="30"
+						rows="10"
+						class="textarea" placeholder="Mensaje">
+					</textarea>
+					<label
+						class="textarea-label"
+						for="textArea"
+						>Mensaje</label
+					>
+					<span class="textarea-mensage-error ">Este campo no es valido</span>
+				</div>
 				<input
-					type="email"
-					name=""
-					id="" />
-				<input type="text" />
-				<textarea
-					name=""
-					id=""
-					cols="30"
-					rows="10"></textarea>
-				<input type="button" />
+					type="button"
+					value="Enviar mensaje"
+					class="button"
+					required />
 			</form>
 		</section>
 		<footer>
