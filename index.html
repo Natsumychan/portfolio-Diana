@@ -47,6 +47,7 @@
 		<link
 			rel="stylesheet"
 			href="./assets/css/formacion.css" />
+		<link rel="stylesheet" href="./assets/css/proyectos.css">
 		<link
 			rel="stylesheet"
 			href="./assets/css/formulario.css" />
@@ -307,44 +308,50 @@
 			</div>
 		</section>
 		<section class="seccion__proyectos">
-			<h2>Proyectos</h2>
-			<div class="card__projecto">
+			<h2 class="titulo__proyectos">Proyectos</h2>
+			<div class="card__proyecto">
 				<img
-					src=""
-					alt="" />
-				<h3>Encriptador</h3>
+					src="./assets/img/encriptador.webp"
+					alt="imagen encriptador" class="proyecto__img" />
+				<h3 class="titulo__proyecto">Encriptador de texto</h3>
 				<p>Challenge Oracle</p>
-				<button>Repositorio</button>
-				<button>Demo</button>
+				<div class="button__contenedor">
+					<a href="https://github.com/Natsumychan/Text-encryption" class="button__proyecto button__proyecto-repositorio">Repositorio</a>
+					<a href="natsumychan.github.io/Text-encryption/" class="button__proyecto button__proyecto-demo">Demo</a>
+				</div>
 			</div>
-			<div class="card__projecto">
+			<div class="card__proyecto">
 				<img
-					src=""
-					alt="" />
-				<h3>App del clima</h3>
+					src="./assets/img/weather-app.webp"
+					alt="imagen app del clima"  class="proyecto__img" />
+				<h3 class="titulo__proyecto">App del clima</h3>
 				<p>SheCodes</p>
-				<button>Repositorio</button>
-				<button>
-					<a href="https://elaborate-croissant-1b7582.netlify.app/">Demo</a>
-				</button>
+				<div class="button__contenedor">
+					<a href="https://github.com/Natsumychan/weather-react-app-shecodes" class="button__proyecto button__proyecto-repositorio">Repositorio</a>
+						<a href="https://elaborate-croissant-1b7582.netlify.app/" class="button__proyecto button__proyecto-demo">Demo</a>
 			</div>
-			<div class="card__projecto">
+			</div>
+			<div class="card__proyecto">
 				<img
-					src=""
-					alt="" />
-				<h3>Batata bit</h3>
+					src="./assets/img/batata-bit.webp"
+					alt="imagen batata bit" class="proyecto__img"/>
+				<h3 class="titulo__proyecto">Batata bit</h3>
 				<p>Platzi</p>
-				<button>Repositorio</button>
-				<button>Demo</button>
+				<div class="button__contenedor">
+					<a href="https://github.com/Natsumychan/batata-bit" class="button__proyecto button__proyecto-repositorio">Repositorio</a>
+						<a href="natsumychan.github.io/batata-bit/" class="button__proyecto button__proyecto-demo">Demo</a>
+				</div>
 			</div>
-			<div class="card__projecto">
+			<div class="card__proyecto">
 				<img
 					src=""
-					alt="" />
-				<h3>AluraGeek</h3>
+					alt="proximamente" class="proyecto__img"/>
+				<h3 class="titulo__proyecto">AluraGeek</h3>
 				<p>Challenge Oracle</p>
-				<button>Repositorio</button>
-				<button>Demo</button>
+				<div class="button__contenedor">
+						<a href="#" class="button__proyecto button__proyecto-repositorio">Repositorio</a>
+						<a href="#" class="button__proyecto button__proyecto-demo">Demo</a>
+				</div>
 			</div>
 		</section>
 		<section class="contacto">
@@ -359,7 +366,7 @@
 				<div class="input-container">
 					<input
 						name="name"
-						id="name"
+						id="nombre"
 						class="input"
 						type="text"
 						placeholder="Nombre"
@@ -367,7 +374,7 @@
 						data-tipo="nombre" />
 					<label
 						class="input-label"
-						for="name"
+						for="nombre"
 						>Nombre</label
 					>
 					<span class="input-message-error">Este campo no es valido</span>

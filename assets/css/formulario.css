@@ -11,10 +11,12 @@
 
 .titulo__contacto{
  width: 90%;
+ font-size: 1.6rem;
 }
 
 .descripcion__contacto{
  width:90%;
+ font-size: 1.3rem;
 }
 
 .formulario {
@@ -162,7 +164,7 @@
  display: block;
  background-color: #2a7ae4;
  border-radius: 7px;
- width: 40%;
+ width: 60%;
  margin-top: 1rem;
  max-width: 20rem;
  padding: 1.125rem;
